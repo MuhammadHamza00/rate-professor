@@ -44,9 +44,12 @@ const Header = () => {
                 <Button color="inherit" component={Link} href="/Scrapper">
                   Scrapper
                 </Button>
-                <Link href="https://rag-bot-lime.vercel.app/"  color="inherit">
+                 <Button color="inherit" component={Link} href="/Scrapper">
+                  <Link href="https://rag-bot-lime.vercel.app/"  color="inherit">
                   <Typography variant="body2">Try Our Chatbot 2</Typography>
                 </Link>
+                </Button>
+                
               </Box>
             )}
           </Box>
