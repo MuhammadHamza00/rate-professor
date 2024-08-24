@@ -15,8 +15,8 @@ const Header = () => {
         bgcolor: 'transparent', // No background color
         color: '#150e43', // Text color for contrast
         p: 1.5,
-        border: '2px solid transparent', 
-        boxShadow: `0 0 10px 4px rgba(95, 206, 213, 0.8)`, 
+        border: '2px solid transparent',
+        boxShadow: `0 0 10px 4px rgba(95, 206, 213, 0.8)`,
       }}
     >
       {/* AppBar content goes here */}
@@ -44,6 +44,9 @@ const Header = () => {
                 <Button color="inherit" component={Link} href="/Scrapper">
                   Scrapper
                 </Button>
+                <Link href="https://rate-my-professor-backend.vercel.app/"  color="inherit">
+                  <Typography variant="body2">Try Our Chatbot 2</Typography>
+                </Link>
               </Box>
             )}
           </Box>
